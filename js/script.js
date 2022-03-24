@@ -14,6 +14,6 @@ const app = new Vue ({
         const result= email;
         tempThis.newEmail.push(result.data.response);
       })
-    }  ;
+    };
   },
 })

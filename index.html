@@ -13,7 +13,7 @@
     <main id="app">
       <ul class="list-group text-center">
         <li class="list-group-item">Email:</li>
-        <li class="list-group-item list-group-item-dark" v-for="email in newEmail">{{email}}</li>
+        <li class="list-group-item list-group-item-dark" v-for="email in newEmail" v-if="(newEmail.length>=10)">{{email}}</li>
       </ul>
     </main>
     <script src="js/script.js"></script>
